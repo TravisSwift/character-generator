@@ -1,0 +1,22 @@
+{
+  "name": "character-generator",
+  "version": "1.0.0",
+  "description": "A tool to quickly create a character or NPC",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TravisSwift/character-generator.git"
+  },
+  "author": "Travis A. Swift",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TravisSwift/character-generator/issues"
+  },
+  "homepage": "https://github.com/TravisSwift/character-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}

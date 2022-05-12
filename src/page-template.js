@@ -8,11 +8,11 @@ const generateAbout = aboutText => {
     <section class="my-3" id="about">
       <h2 class="text-dark bg-primary p-2 display-inline-block">About ${name}</h2>
       <p>${aboutText}</p>
-            <p>${charClass}</p>
-            <p>${alignment}</p>
-            <p>${race}</p>
-            <p>${level}</p>
-            <p>${hitPoints}</p>
+      <p>${charClass}</p>
+      <p>${alignment}</p>
+      <p>${race}</p>
+      <p>${level}</p>
+      <p>${hitPoints}</p>
     </section>
   `;
 };
@@ -90,7 +90,7 @@ module.exports = templateData => {
     
   </main>
     <footer class="container text-center py-3">
-      <h3 class="text-dark">&copy; ${new Date().getFullYear()} by WOTC AD&D Character Generator</h3>
+      <h3 class="text-dark">&copy; ${new Date().getFullYear()} by Travis Swift AD&D Character Generator</h3>
     </footer>
   </body>
   </html>
